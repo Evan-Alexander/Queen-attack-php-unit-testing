@@ -1,17 +1,20 @@
 # Queen Attack Unit Testing
 
-* A Queen Attack simulation app built to practice unit testing in PHP
+* A Queen Attack chess simulation app built to practice unit testing in PHP
 
 #### February 13, 2017
 
 #### By **Jason Brown & Zach Swanson**
 
 ## Description
-  Practice unit testing in PHP.
+  Practice unit testing in PHP.  Allowing user to attack other pieces on the board per allowable moves of a Queen.
 
 | Behavior | Input Example | Output Example |
 |----------|---------------|----------------|
-
+| User enters X and Y coordinates to attack a piece on the board. | "c, 4" to "a,4" | 'true'|
+| User enters coordinates. |"C,4" to "D,5"| 'true'|
+| User enters coordinates. |"C,4" to "B,2"| 'false'|
+| User enters coordinates. |"C,4" to "C,7"| 'true'|
 
 
 ## Setup/Installation Requirements
